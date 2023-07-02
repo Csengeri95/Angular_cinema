@@ -1,27 +1,5 @@
-# Cinema
+# Angular Cinema
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+This is a fictional cinema website built using the Angular framework. The Main Page shows the movies scheduled for the current week (the database has March dates). The days change according to the current date. Click on the calendar icon to freely select the desired date. Click on the date to add films to the basket, which will be displayed on the Cashier page. Here you can enter a quantity, the price of the tickets is calculated according to this. It is also compulsory to enter a name and e-mail address. The ticket can be cancelled. The tickets you wish to purchase will be stored in Localstorage, so they will be kept even if the page is refreshed. The Movies page lists the current movies, which you can click on to view the movie details.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Github Pages: https://csengeri95.github.io/Angular_cinema
