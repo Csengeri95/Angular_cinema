@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "title": "A bálna",
+        "release_date": "Február 9, 2023",
+        "original_title": "The whale",
+        "age": 16,
+        "cover": "https://www.cinemacity.hu/xmedia-cw/repo/feats/posters/5496D2R-lg.jpg",
+        "genre": "Drama",
+        "time": 117,
+        "dates": [
+            {
+                "date": "2023-03-21",
+                "time": "12:30",
+                "language": "magyar",
+                "price": 1600
+            },
+            {
+                "date": "2023-03-23",
+                "time": "16:00",
+                "language": "angol, magyar felirattal",
+                "price": 1600
+            }
+        ],
+        "director": "Darren Aronofsky",
+        "actors": "Brendan Fraser, Sadie Sink, Ty Simpkins, Hong Chau"
+    },
+    {
+        "id": 2,
+        "title": "A gép",
+        "release_date": "Január 26, 2023",
+        "original_title": "Plane",
+        "age": 16,
+        "cover": "https://m.media-amazon.com/images/M/MV5BNWM2MmZkNWMtNGEzZC00MjljLWFlMTYtN2M3OTAwYjJiNzFhXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
+        "genre": "Action, Thriller",
+        "time": 107,
+        "dates": [
+            {
+                "date": "2023-03-22",
+                "time": "12:30",
+                "language": "magyar",
+                "price": 1500
+            },
+            {
+                "date": "2023-03-24",
+                "time": "12:30",
+                "language": "magyar",
+                "price": 1500
+            },
+            {
+                "date": "2023-03-25",
+                "time": "18:00",
+                "language": "magyar",
+                "price": 1500
+            }
+        ],
+        "director": "Jean-François Richet",
+        "actors": "Gerard Butler, Mike Colter, Yoson An, Daniella Pineda, Paul Ben-Victor, Tony Goldwyn"
+    },
+    {
+        "id": 3,
+        "title": "A hangya és a darázs: kvantumánia",
+        "release_date": "Február 16, 2023",
+        "original_title": "Ant-Man and the Wasp: Quantumania",
+        "age": 12,
+        "cover": "https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_FMjpg_UX1000_.jpg",
+        "genre": "Action, Adventure, Fantasy, Sci-Fi",
+        "time": 125,
+        "dates": [
+            {
+                "date": "2023-03-26",
+                "time": "15:30",
+                "language": "magyar",
+                "price": 1500
+            },
+            {
+                "date": "2023-03-27",
+                "time": "13:00",
+                "language": "magyar",
+                "price": 1500
+            },
+            {
+                "date": "2023-03-29",
+                "time": "11:00",
+                "language": "magyar",
+                "price": 1500
+            }
+        ],
+        "director": "Peyton Reed",
+        "actors": "Paul Rudd, Evangeline Lilly, Michael Douglas, Michelle Pfeiffer, Jonathan Majors"
+    },
+    {
+        "id": 4,
+        "title": "Babylon",
+        "release_date": "Január 19, 2023",
+        "original_title": "Babylon",
+        "age": 18,
+        "cover": "https://m.media-amazon.com/images/M/MV5BNjlkYjc4NGMtZjc3MS00NjQ3LTk4MmUtMTkwZGZjODE1ZDVlXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+        "genre": "Drama",
+        "time": 190,
+        "dates": [
+            {
+                "date": "2023-03-25",
+                "time": "20:30",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-26",
+                "time": "18:30",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-27",
+                "time": "17:00",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-31",
+                "time": "11:30",
+                "language": "magyar",
+                "price": 1800
+            }
+        ],
+        "director": "Damien Chazelle",
+        "actors": "Brad Pitt, Margot Robbie, Diego Calva"
+    },
+    {
+        "id": 5,
+        "title": "Creed III",
+        "release_date": "Március 02, 2023",
+        "original_title": "Creed III",
+        "age": 16,
+        "cover": "https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "genre": "Drama",
+        "time": 116,
+        "dates": [
+            {
+                "date": "2023-03-23",
+                "time": "19:30",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-26",
+                "time": "12:00",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-30",
+                "time": "11:30",
+                "language": "magyar",
+                "price": 1800
+            }
+        ],
+        "director": "Michael B. Jordan",
+        "actors": "Jonathan Majors, Michael B. Jordan, Tessa Thompson"
+    },
+    {
+        "id": 6,
+        "title": "TÁR",
+        "release_date": "Február 16, 2023",
+        "original_title": "TÁR",
+        "age": 16,
+        "cover": "https://dx35vtwkllhj9.cloudfront.net/focusfeatures/tar/images/regions/us/onesheet.jpg",
+        "genre": "Drama",
+        "time": 158,
+        "dates": [
+            {
+                "date": "2023-03-24",
+                "time": "15:30",
+                "language": "magyar",
+                "price": 1600
+            },
+            {
+                "date": "2023-03-25",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1600
+            },
+            {
+                "date": "2023-03-28",
+                "time": "11:30",
+                "language": "magyar",
+                "price": 1600
+            }
+        ],
+        "director": "Todd Field",
+        "actors": "Cate Blanchett, Noémie Merlant, Nina Hoss, Julian Glover, Mark Strong"
+    },
+    {
+        "id": 7,
+        "title": "65",
+        "release_date": "Március 16, 2023",
+        "original_title": "65",
+        "age": 16,
+        "cover": "https://www.cinemacity.hu/xmedia-cw/repo/feats/posters/4956D2R-lg.jpg",
+        "genre": "Horror, Sci-Fi",
+        "time": 93,
+        "dates": [
+            {
+                "date": "2023-03-21",
+                "time": "18:30",
+                "language": "magyar",
+                "price": 1600
+            },
+            {
+                "date": "2023-03-22",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1600
+            },
+            {
+                "date": "2023-03-23",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1600
+            }
+        ],
+        "director": "Scott Beck, Bryan Woods",
+        "actors": "Adam Driver, Ariana Greenblatt, Chloe Coleman"
+    },
+    {
+        "id": 8,
+        "title": "Shazam! Az istenek haragja",
+        "release_date": "Március 16, 2023",
+        "original_title": "Shazam! Fury of the Gods",
+        "age": 16,
+        "cover": "https://i.ebayimg.com/images/g/ih0AAOSwvDxjkvpV/s-l500.jpg",
+        "genre": "Action",
+        "time": 130,
+        "dates": [
+            {
+                "date": "2023-03-27",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-28",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1800
+            },
+            {
+                "date": "2023-03-29",
+                "time": "15:00",
+                "language": "magyar",
+                "price": 1800
+            }
+        ],
+        "director": "David S. Sandberg",
+        "actors": "Zachary Levi, Helen Mirren, Lucy Liu, Adam Brody, Djimon Hounsou, Asher Angel"
+    }
+]
