@@ -1,0 +1,43 @@
+<div class="cart row">
+    <div class="col-12 text-center mt-1">
+        <h1 class="mb-1">Pénztár</h1>
+
+
+
+        <h2 *ngIf="this.service.cart.length==0">A kosár jelenleg üres!</h2>
+
+        <form class="mb-1 pr-1 pl-1" *ngIf="this.service.cart.length>0">
+            <label for="buyer">Név:</label><br />
+            <input class="mb-1" type="text" id="buyer" name="buyer" [(ngModel)]="buyer" required>
+            <br>
+            <label class="mt-1" for="email">Email:</label><br />
+            <input type="email" name="email" id="email" [(ngModel)]="email" required>
+        </form>
+        <table class="col-12 mt-1 mb-2 pr-1 pl-1 text-center" *ngFor="let item of this.service.cart; let i=index">
+
+            <tr>
+                <th>Cím</th>
+                <th>Dátum</th>
+                <th>Időpont</th>
+                <th>Darab</th>
+                <th>Ár</th>
+                <th>Kezelés</th>
+            </tr>
+            <tr>
+                <td> {{ formTitle(item.title) }}</td>
+                <td> {{item.date}}</td>
+                <td> {{item.time}}</td>
+                <td> <input type="number" min="1" max="99" [(ngModel)]="item.quantity" (change)="getPrice()" /> </td>
+                <td> {{item.price}} </td>
+                <td> <button class="deleteButton" (click)="removeItem(i)">Törlés</button></td>
+            </tr>
+
+
+        </table>
+
+
+        <h2 *ngIf="this.service.cart.length>0"> Az ár összesen: {{price}} Ft </h2>
+
+        <button class="btn mt-2" *ngIf="this.service.cart.length>0">Megveszem</button>
+    </div>
+</div>

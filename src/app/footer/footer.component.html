@@ -1,0 +1,12 @@
+<div class="footer row">
+    <div class="body col-12 flex text-center mt-1 mb-1">
+        <p>Minden jog fenntartva &copy; {{year}} </p>
+        <p>Készítő: {{creator}}</p>
+
+        <div class="social_icons mt-1">
+
+            <fa-icon *ngFor="let item of socialMediaIcons" class="fa-xl mr-1" [icon]="item.icon"
+                [title]="item.name" ></fa-icon>
+        </div>
+    </div>
+</div>

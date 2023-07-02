@@ -1,0 +1,21 @@
+<div class="carousel row">
+    <div *ngIf="images&& images.length>0" class="carousel-container col-12">
+        <img *ngFor="let image of images; let i=index" [src]="image.imageSrc" [alt]="image.alt"
+            [ngClass]="{'image-active':selectedIndex===i}" />
+
+
+        <div *ngIf="controls" class="btn btn-prev" (click)="prev()">
+            <fa-icon size="2x" [icon]="faLeft"></fa-icon>
+        </div>
+
+
+        <div *ngIf="controls" class="btn btn-next" (click)="next()">
+            <fa-icon size="2x" [icon]="faRight"></fa-icon>
+        </div>
+
+    </div>
+
+
+
+
+</div>

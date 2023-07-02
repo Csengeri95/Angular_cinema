@@ -1,0 +1,101 @@
+.cart {
+    min-height: 92vh;
+}
+
+.cart .deleteButton {
+    background-color: #DC3545;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 3px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.cart table {
+    table-layout: fixed;
+}
+
+.cart table th,
+td {
+    white-space: wrap;
+    padding: 1px;
+}
+
+.cart .btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgba(91, 45, 60, .5);
+    padding: 6px 12px;
+    border-radius: .2rem;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.cart table td:nth-child(0) {
+    word-break: break-all;
+}
+
+.cart form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart form input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 1.1rem;
+    padding: 6px 3px;
+    text-align: center;
+}
+
+
+
+
+.cart input[type="number"] {
+    text-align: center;
+    border: none;
+}
+
+@media screen and (min-width:768px) {
+    .cart form {
+        flex-direction: initial;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cart form input {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .cart form input {
+        width: 40%;
+        font-size: 1.2rem;
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}

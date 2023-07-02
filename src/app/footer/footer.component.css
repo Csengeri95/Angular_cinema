@@ -1,0 +1,16 @@
+.footer {
+    background-color: #545454;
+    color: #fefefe;
+    min-height: 10vh;
+    
+}
+
+.footer .body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .body .social_icons fa-icon {
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<div class="calendar mt-1 p-1">
+
+    <div class="row">
+
+
+        <div class="head col-12 col-xl-8 p-1">
+
+            <h2>Válassza ki a kívánt napot, és nézze meg mely mozifilmek kerülnek játszásra!</h2>
+            <h3>A filmek menetrende mindig csak az adott hétre kerülnek kiírásra</h3>
+            <h3 class="mt-1">A kosárhoz adáshoz kattintson a film vetítési idejére!</h3>
+
+            <div class="controls col-12 mt-1">
+                <div class="links">
+                    <a *ngFor="let day of days; let i=index" (click)="findFilms(i)">{{day}}</a>
+                </div>
+
+                <input class="" type="date" [(ngModel)]="date" (change)="selectDate($any($event.target).value)">
+
+
+            </div>
+        </div>
+
+        <div class="movies-container col-12 col-xl-6 p-1">
+
+            <h3>{{this.formattedDate}}</h3>
+
+            <h1 *ngIf="filteredMovies.length==0">Nem található film :(</h1>
+
+            <div class="movies-card mt-1" *ngFor="let p of filteredMovies">
+                <div class="movies-card-head p-1">
+
+                    <img src={{p.cover}} title={{p.title}} alt={{p.title}} />
+
+                </div>
+
+                <div class="movies-card-body flex p-1">
+                    <div class="movies-card-title mb-1">
+                        <h4 (click)="selectMovie(p.id)">{{p.title}}</h4>
+                    </div>
+
+                    <div class="movies-card-time">
+                        <div *ngFor="let a of sortByHour(p.dates)">
+                            <button (click)="addToCart(p,a)"  *ngIf="a.date==formattedDate">{{a.time}}</button>
+                            <p class="mt-1 mb-1 " *ngIf="a.date==formattedDate"> Nyelv: {{a.language}}</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>

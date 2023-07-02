@@ -1,0 +1,130 @@
+.calendar {
+    min-height: 40vh;
+}
+
+.calendar .head h3:nth-child(3) {
+    color: #E52B50;
+}
+
+.calendar .head .controls {
+    display: flex;
+}
+
+
+.calendar .head .controls .links a {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    margin-right: .5rem;
+
+}
+
+.calendar .head .controls .links a:hover {
+    color: #E52B50;
+}
+
+
+.calendar .movies-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar .movies-container .movies-card {
+    display: flex;
+    box-shadow: -5px 11px 24px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -5px 11px 24px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 11px 24px -5px rgba(0, 0, 0, 0.75);
+    transition: transform 0.5s ease;
+
+}
+
+.calendar .movies-container .movies-card:hover {
+    transform: scale(1.1);
+}
+
+.calendar .movies-container .movies-card .movies-card-head {
+    float: left;
+}
+
+.calendar .movies-container .movies-card .movies-card-head img {
+    max-width: 150px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.calendar .movies-container .movies-card .movies-card-body {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar .movies-container .movies-card .movies-card-body .movies-card-title {
+    color: #FFA500;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+
+.calendar .movies-container .movies-card .movies-card-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar .movies-container .movies-card .movies-card-time button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgba(91, 45, 60, .5);
+    padding: 6px 12px;
+    border-radius: .2rem;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    border: none;
+    outline: none;
+
+}
+
+input[type="date"]::-webkit-datetime-edit {
+    display: none;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .calendar .head {
+        text-align: center;
+    }
+
+    .calendar .head .controls .links {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+
+    }
+
+    .calendar .head .controls .links a {
+        font-size: 14px;
+
+    }
+
+    .calendar .head .controls input {
+        margin: auto;
+        display: flex;
+    }
+}

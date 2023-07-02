@@ -1,0 +1,14 @@
+<div class="movies row">
+    <div class="movies-container flex col-12 mt-1">
+        <div class="movies-card col-10  col-md-4 col-lg-2 mb-1 pr-1 pl-1" *ngFor="let movie of this.service.movies"
+            (click)="selectMovie(movie.id)">
+            <div class="card-img">
+                <img [src]="movie.cover" [alt]="movie.title" [title]="movie.title">
+            </div>
+
+            <div class="card-body text-center">
+                <p>{{movie.title}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+.selectedmovie {
+    min-height: 95vh;
+}
+
+.selectedmovie .head h1>span {
+    color: #FFA500;
+}
+
+.selectedmovie .head .selectedmovie-img img {
+    max-width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.selectedmovie .body table td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.selectedmovie .body table td:nth-child(1) {
+    font-weight: 600;
+}
+
+@media screen and (max-width:992px) {
+    .selectedmovie .head h1 {
+        font-size: 24px;
+    }
+
+    .selectedmovie .head h2 {
+        font-size: 18px;
+    }
+
+    .selectedmovie .head,
+    .body {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    .selectedmovie .head h1,
+    h2 {
+        text-align: center;
+    }
+
+    .selectedmovie .head h1 {
+        font-size: 1.4rem;
+    }
+
+    .selectedmovie .head h2 {
+        font-size: 1.2rem;
+    }
+
+    .selectedmovie .head .selectedmovie-img img {
+        margin: auto;
+        display: flex;
+        width: 40%;
+        height: 40%;
+    }
+
+
+    .selectedmovie .body table {
+        table-layout: fixed;
+    }
+
+    .selectedmovie .body table td {
+        line-height: 2;
+        font-size: 1.1rem;
+    }
+
+}
+
+
+
+
+@media screen and (min-width:992px) {
+
+
+    .selectedmovie .head {
+        padding-left: 1rem;
+
+    }
+
+
+}

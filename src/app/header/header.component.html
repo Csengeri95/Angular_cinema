@@ -1,0 +1,29 @@
+<div class="header">
+
+
+    <div class="container col-12 flex">
+        <div class="logo ml-2">
+            <a routerLink="home"> <img src="assets/images/logo.png" alt="logo" title="logo" /> </a>
+        </div>
+
+        <div class="burger mr-1" (click)="toggleMenu()">
+            <i class="material-icons"> {{isMenuOpen? "close":"menu"}} </i>
+        </div>
+
+        <div class="menu flex mr-2" [class.isOpen]="isMenuOpen">
+            <a (click)="toggleMenu()" routerLink="home">Műsorlap</a>
+            <a (click)="toggleMenu()" routerLink="movies">Filmek</a>
+            <a (click)="toggleMenu()" routerLink="cart">Pénztár</a>
+
+            <div class="search">
+                <input type="search" placeholder="Keresés..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="separate col-12">
+
+    </div>
+
+
+</div>
